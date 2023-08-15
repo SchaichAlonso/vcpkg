@@ -19,9 +19,6 @@
       "host": true
     }
   ],
-  "default-features": [
-    "mysqlping"
-  ],
   "features": {
     "mysqlping": {
       "description": "Install a MySQL client library to support the mysql_ping()",
