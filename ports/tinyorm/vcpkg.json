@@ -8,18 +8,21 @@
   "maintainers": "Silver Zachara <silver.zachara@gmail.com>",
   "supports": "!(uwp | arm | android | emscripten)",
   "dependencies": [
-    "range-v3",
-    "tabulate",
     {
       "name": "qtbase",
       "features": [ "sql" ]
     },
+    "range-v3",
+    "tabulate",
     {
       "name": "vcpkg-cmake",
       "host": true
     }
   ],
   "features": {
+    "tool": {
+      "description":  "Install the tom executable"
+    },
     "mysqlping": {
       "description": "Install a MySQL client library to support the mysql_ping()",
       "dependencies": [
