@@ -7,6 +7,7 @@ vcpkg_from_github(
     PATCHES
         0001-install-tom.patch
         0002-comment.patch
+        0003-reduce-assert-scopes.patch
 )
 
 vcpkg_check_features(
