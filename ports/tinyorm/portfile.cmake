@@ -6,6 +6,7 @@ vcpkg_from_github(
     HEAD_REF main
     PATCHES
         0001-install-tom.patch
+        0002-comment.patch
 )
 
 vcpkg_check_features(
