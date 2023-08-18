@@ -1,0 +1,10 @@
+﻿diff --git a/examples/tom/CMakeLists.txt b/examples/tom/CMakeLists.txt
+index 98f1264c..13cc82a1 100644
+--- a/examples/tom/CMakeLists.txt
++++ b/examples/tom/CMakeLists.txt
+@@ -82,3 +82,5 @@ tiny_resource_and_manifest(${TomExample_target}
+ 
+ # Unconditional dependencies
+ target_link_libraries(${TomExample_target} PRIVATE ${TinyOrm_ns}::${TinyOrm_target})
++
++install(TARGETS ${TomExample_target})
