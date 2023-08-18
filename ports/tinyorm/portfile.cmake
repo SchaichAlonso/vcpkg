@@ -1,9 +1,11 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO SchaichAlonso/TinyORM
-    REF 45ea67fe31ac63c11e62e3b8899f2fa3e0efd6da
-    SHA512 dd212d5494ecc605c8e15754684ae97ca7bad465a490cec4ca990bdc271c340c946acde30fb63485aef5dc6c36874bab0aac6c09aa150a808d4844ce8afea363
+    REPO silverqx/TinyORM
+    REF d98ee5c6c5e535ef657a46e632e7c9fc4b48851e
+    SHA512 87f09273b8efe9ef6a3e29b5e5509a3737b878a7d0eddae7fde48f82f3bc56a3fb1286bd0cad0e0bd5e6fb55c6b510d34fa00cbd00238360ea1de595d2915469
     HEAD_REF main
+    PATCHES
+        0001-install-tom.patch
 )
 
 vcpkg_check_features(
