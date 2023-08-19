@@ -8,6 +8,7 @@ vcpkg_from_github(
         0001-install-tom.patch
         0002-comment.patch
         0003-reduce-assert-scopes.patch
+        0004-remove-interface-warnings.patch
 )
 
 vcpkg_check_features(
