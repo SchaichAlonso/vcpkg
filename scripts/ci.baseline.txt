@@ -1259,6 +1259,7 @@ tiny-process-library:x64-uwp=fail
 tinycthread:arm-neon-android=fail
 tinycthread:arm64-android=fail
 tinycthread:x64-android=fail
+tinyorm:x64-osx=fail
 tlx:arm-neon-android=fail
 tlx:arm64-android=fail
 tlx:x64-android=fail
