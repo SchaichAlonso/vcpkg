@@ -1,12 +1,11 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO silverqx/TinyORM
-    REF d98ee5c6c5e535ef657a46e632e7c9fc4b48851e
-    SHA512 87f09273b8efe9ef6a3e29b5e5509a3737b878a7d0eddae7fde48f82f3bc56a3fb1286bd0cad0e0bd5e6fb55c6b510d34fa00cbd00238360ea1de595d2915469
+    REF dddc80c8712fd4eca892120d7d787ab067300643
+    SHA512 990dec9a3bfc59a31c574dd1f3f49ae476e244997fc13e4f7e32fc55b55f9b19fdcaafbd37a18bfb06b912dfa306da4c512628a411fd7d43e395c671c098f908
     HEAD_REF main
     PATCHES
         0001-install-tom.patch
-        0002-comment.patch
         0003-reduce-assert-scopes.patch
         0004-remove-interface-warnings.patch
 )
