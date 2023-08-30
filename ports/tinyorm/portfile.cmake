@@ -6,7 +6,6 @@ vcpkg_from_github(
     HEAD_REF main
     PATCHES
         0001-install-tom.patch
-        0003-reduce-assert-scopes.patch
         0004-remove-interface-warnings.patch
 )
 
