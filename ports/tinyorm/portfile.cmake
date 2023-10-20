@@ -14,6 +14,8 @@ vcpkg_check_features(
     PREFIX TINYORM
     FEATURES
         mysqlping MYSQL_PING
+        orm ORM
+        tom TOM
         tool TOM_EXAMPLE
 )
 
